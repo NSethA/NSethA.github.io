@@ -1,0 +1,421 @@
+<!doctype html>
+	<head>
+		<title>Home</title>
+			<link rel="stylesheet" href="12-column-grid.css">	
+			<link rel="stylesheet" href="style.css">
+			<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+			<script>
+			$(document).ready(function(){
+			  // Add smooth scrolling to all links
+			  $("a").on('click', function(event) {
+
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+				  // Prevent default anchor click behavior
+				  event.preventDefault();
+
+				  // Store hash
+				  var hash = this.hash;
+
+				  // Using jQuery's animate() method to add smooth page scroll
+				  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				  $('html, body').animate({
+					scrollTop: $(hash).offset().top
+				  }, 500, function(){
+			   
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				  });
+				} // End if
+			  });
+			}); 
+			</script>
+	</head>
+	<body>
+		<div class="row" id="Home">
+			<header>
+				<nav>
+					<h1>Seth Anderson</h1>
+					<ul>
+                        <a href="#Home" style="font-family: 'Roboto Condensed', sans-serif; color: white; margin: 0px; padding-left: 18px; padding-top: 22px; text-align: center;">Home</a>
+						<a href="#Portfolio" style="font-family: 'Roboto Condensed', sans-serif; color: white; margin: 0px; padding-left: 18px; padding-top: 22px; text-align: center;">Portfolio</a>
+                        <a href="#Resume" style="font-family: 'Roboto Condensed', sans-serif; color: white; margin: 0px; padding-left: 18px; padding-top: 22px; text-align: center;">Resume</a>
+						<a href="#Contact" style="font-family: 'Roboto Condensed', sans-serif; color: white; margin: 0px; padding-left: 18px; padding-top: 22px; text-align: center;">Contact</a>
+						<!--<li><a href="extrapage1.html">My Band</a></li>-->
+					</ul>
+				</nav>
+			</header>
+		</div><!--row closes here-->
+            <!--<div class="row">
+                <div class="behindnavbar">
+                </div>
+            </div><!--row behind navbar-->
+
+		<div class="row">
+			<div class="parallax">
+
+						<br><br><br><br><br><br><br><br>
+                        <h1 style="font-family: 'Roboto Condensed', sans-serif; color: white; margin: 0px; padding-left: 18px; padding-top: 22px; text-align: center; font-size: 100px">Technical Communicator</h1>
+						<h2 style="font-family: 'Roboto Condensed', sans-serif; font-style: italic; color: white; margin: 0px; padding-left: 18px; padding-top: 22px; text-align: center;">"What separates the talented individual from the successful one is a lot of hard work."</h2>
+
+			</div><!--parallax--> 
+		</div><!--row-->
+        
+        
+        
+    <div class="container">
+
+        
+<!--Portfolio-->        
+        
+
+        <div class="row">
+             <div class="bodypadding">
+             </div>
+        </div><!--row-->
+        
+        <div class="content" id="Portfolio">
+            
+        <div class="row">
+             <div class="bodypadding">
+             </div>
+        </div><!--row-->
+            
+			<h1 style="text-align:center;">Portfolio</h1>    
+			<div class="row">
+				<div class="four">
+					<div class="portfolio-container">
+						<div class="bprimage">
+							<div class="portfolioimagecontainer">
+								<!--<img style="width: 100%;" src="images/flyer1pdf.jpg" alt="First Flyer" title="Portfolio Piece"/>-->
+							</div><!--portfolioimagecontainer-->
+						</div><!--bprimage-->
+                            <div class="portfolio-headings">
+                                <h2>Bridging the UX Gap</h2>
+                            </div>
+							<div class="portfolio-text">
+								<p>Best practices report<!--This is a report detailing some of the difficulties many User Experience professionals experience trying to communicate their objectives and values on an interdisciplinary team and suggestions on how to overcome them.--></p>
+							</div><!--portfolio-text-->
+						<div class="box-link">
+                                <a href="downloadabledocuments/bestpracticesreport.pdf" target="_blank">Download</a>
+                        </div>
+					</div><!--portfolio-container-->
+				</div><!--four-->
+				<div class="four">
+					<div class="portfolio-container">
+						<div class="clientsiteimage">
+							<div class="portfolioimagecontainer">
+								<!--<img style="width: 100%;" src="images/flyer2pdf.jpg" alt="Second Flyer" title="Portfolio Piece"/>-->
+							</div><!--portfolioimagecontainer-->
+						</div><!--clientsiteimage-->
+                            <div class="portfolio-headings">
+                                <h2>Partner's Pest Control</h2>
+                            </div>
+							<div class="portfolio-text">
+							     <p>Content audit, sitemap and wireframe redesign<!--I was given the opportunity to lead a team of fellow students in a project that involved overhauling the content on a local pest control business's website. This included developing new sitemaps and wireframes, editing the content on the site for maximum efficacy, as well as developing a database of common pests in the area. For the purpose of this portfolio, I've only included the work I did.--></p>
+							</div><!--portfolio-text-->
+						<div class="box-link">
+                                <a href="downloadabledocuments/clientsite_edit.pdf" target="_blank">Download</a>
+                        </div>
+					</div><!--portfolio-container-->
+				</div><!--four-->
+                <div class="four">
+					<div class="portfolio-container">
+						<div class="triptutorialimage">
+							<div class="portfolioimagecontainer">
+							</div><!--portfolioimagecontainer-->
+						</div><!--tutorialimage-->
+                            <div class="portfolio-headings">
+							     <h2>TripMaker Tutorial</h2>
+                            </div>
+							<div class="portfolio-text">
+							     <p>A tutorial written for tripmaker.randmcnally.com</p>
+							</div><!--portfolio-text-->
+						<div class="box-link">
+                                <a href="downloadabledocuments/tripmakertutorial.pdf" target="_blank">Download</a>
+                        </div>
+					</div><!--portfolio-container-->
+				</div><!--four-->
+			</div><!--row-->
+            
+			<div class="row">
+				<div class="portfoliopadding">
+				</div>
+			</div><!--row-->
+            
+			<div class="row">
+				<div class="four">
+					<div class="portfolio-container">
+						<div class="redesignsimage">
+							<div class="portfolioimagecontainer">
+							</div><!--portfolioimagecontainer-->
+						</div><!--redesignsimage-->
+                        <div class="portfolio-headings">
+							<h2>The Human Cultures of Science Fiction</h2>
+                        </div>
+				        <div class="portfolio-text">
+							<p>Class flyer designs<!--These are two redesigns of a flyer advertising a class being offered at the University of North Texas. The class featured classic science-fiction literature, so I designed one flyer to pique genre fans' interest and another emphasizing the literature aspect using museum programs as inspiration.--></p>
+				        </div><!--portfolio-text-->
+						<div class="box-link">
+                                <a href="downloadabledocuments/flyer_redesigns.pdf" target="_blank">Download</a>
+                        </div>
+					</div><!--portfolio-container-->
+				</div><!--four-->
+                <div class="four">
+					<div class="portfolio-container">
+						<div class="tutorialimage">
+							<div class="portfolioimagecontainer">
+								<!--<img style="width: 100%;" src="images/flyer1pdf.jpg" alt="First Flyer" title="Portfolio Piece"/>-->
+							</div><!--portfolioimagecontainer-->
+						</div><!--tutorialimage-->
+                        <div class="portfolio-headings">
+							<h2>Greeting Card</h2>
+                        </div>
+				        <div class="portfolio-text">
+								<p>InDesign tutorial<!--For this guide, I challenged myself to get more experience with Photoshop and InDesign. I decided to use the software to try to create a postcard one might see in a gift shop, then document the steps I took to arrive at the finished design.--></p>
+				        </div><!--portfolio-text-->
+						<div class="box-link">
+                                <a href="downloadabledocuments/postcardtutorial.pdf" target="_blank">Download</a>
+                        </div>
+					</div><!--portfolio-container-->
+				</div><!--four-->
+				<div class="four">
+					<div class="portfolio-container">
+						<div class="spanishimage">
+							<div class="portfolioimagecontainer">
+								<!--<img style="width: 100%;" src="images/flyer2pdf.jpg" alt="Second Flyer" title="Portfolio Piece"/>-->
+							</div><!--portfolioimagecontainer-->
+						</div><!--spanishimage-->
+                        <div class="portfolio-headings">
+							<h2>Los Estados Unidos y Bolivia</h2>
+                        </div>
+				        <div class="portfolio-text">
+							<p>Spanish writing sample<!--I include this short essay to demonstrate my steadily-increasing grasp of the Spanish language. It's by no means perfect but I'm getting there!--></p>
+                        </div><!--portfolio-text-->
+						<div class="box-link">
+                                <a href="downloadabledocuments/spanishcomposition.pdf" target="_blank">Download</a>
+                        </div>
+					</div><!--portfolio-container-->
+				</div><!--four-->
+			</div><!--row-->
+            
+            <div class="row">
+				<div class="portfoliopadding">
+				</div>
+			</div><!--row-->
+            
+            <div class="row" id="Portfolio">
+				<div class="four">
+					<div class="portfolio-container">
+						<div class="proposalimage">
+							<div class="portfolioimagecontainer">
+								<!--<img style="width: 100%;" src="images/flyer1pdf.jpg" alt="First Flyer" title="Portfolio Piece"/>-->
+							</div><!--portfolioimagecontainer-->
+						</div><!--proposalimage-->
+                        <div class="portfolio-headings">
+							<h2>Graphic Communication in Tech Comm</h2>
+                        </div>
+                        <div class="portfolio-text">
+                            <p>UNT course proposal<!--This document proposes the addition of an advanced graphic communication class at UNT. I believe that, with graphic communication and technical communication being closely related, it would greatly benefit tech comm students who have an interest in graphic design to have a class available outside the actual Graphic Communication degree program, which is highly competitive at UNT.--></p>
+                        </div><!--portfolio-text-->
+						<div class="box-link">
+                                <a href="downloadabledocuments/courseproposal.pdf" target="_blank">Download</a>
+                        </div>
+					</div><!--portfolio-container-->
+				</div><!--four-->
+				<div class="four">
+					<div class="portfolio-container">
+						<div class="bioimage">
+							<div class="portfolioimagecontainer">
+								<!--<img style="width: 100%;" src="images/flyer2pdf.jpg" alt="Second Flyer" title="Portfolio Piece"/>-->
+							</div><!--portfolioimagecontainer-->
+						</div><!--bioimage-->
+                        <div class="portfolio-headings">
+							<h2>Alexander Calder Biography</h2>
+                        </div>
+				        <div class="portfolio-text">
+							<p>Writing sample<!--I started my college career as an art major, but I think this short biographical essay over modern artist Alexander Calder is a good example of where I was headed.--></p>
+				        </div><!--portfolio-text-->
+						<div class="box-link">
+                                <a href="downloadabledocuments/calderbiography.pdf" target="_blank">Download</a>
+                        </div>
+					</div><!--portfolio-container-->
+				</div><!--four-->
+			</div><!--row-->
+		</div><!--content-Portfolio-->
+        
+        
+<!--Resume-->
+        
+        
+        <div class="row">
+             <div class="bodypadding">
+             </div>
+        </div><!--row-->
+        
+        <div class="content" id="Resume">
+            
+        <div class="row">
+             <div class="bodypadding">
+             </div>
+        </div><!--row-->
+            
+            <h1 style="text-align:center;">Resume</h1>
+            <div class="row">	
+				
+                <div class="six">
+                    <h3>Summary</h3>
+                    <p>Diligent, industrious student whose skills include using Adobe applications like InDesign and Photoshop, MadCap Flare, reading and writing Spanish, and developing websites using HTML and CSS at a basic level. Studied visual design for three years, first as an art student and then as a technical communicator. Motivated to achieve and exceed expectations.</p>
+
+
+                    <h3>Work Experience</h3>
+                    <ul>
+                        <li>Central Texas Title.
+                            <ul>
+                                <li>Commitment Officer.</li>
+                                <li>May 2016-Dec 2017.</li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>Several positions in food service and retail since spring 2014.</li>
+                    </ul>
+               
+                    <h3>Education</h3>
+                    <ul>
+                        <li>University of North Texas.
+                            <ul>
+                                <li>Professional & Technical Communication major.</li>
+                                <li>Spanish minor.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+                <div class="six">
+                   
+                    <h3>Special Projects</h3>
+                    <ul>
+                        <li>Developed a budgeting app as a class project over the course of a semester.
+                             <ul>
+                                <li>Conducted research by consulting professionals and surveying/testing users in the field.</li>
+                                <li>Developed website content.</li>
+                                <li>Deployed app to internet through Heroku and Amazon Web Services.</li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>Conducted content audit and edit for local pest control business.
+                            <ul>
+                                <li>Performed landscape analysis of other businesses.</li>
+                                <li>Developed pest database specific to the company's location.</li>
+                                <li>Edited entire site content for grammar, spelling, and clarity.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>National Honor Society.</li>
+                        <li>National Spanish Honor Society.</li>
+                        <li>Dean's List.</li>
+                        <li>Graduated high school Magna cum Laude.</li>
+                    </ul>
+                </div>
+			</div><!--row-->
+            <div class="row">
+                <div class="box-link-resume">
+                    <a href="downloadabledocuments/resume.pdf" target="_blank" style="text-align: left;">Download</a>
+                </div>
+            </div>
+		</div><!--content-->
+		
+        
+<!--Contact-->        
+        
+
+        
+        <div class="row">
+             <div class="bodypadding">
+             </div>
+        </div><!--row-->
+        
+        <div class="content" id="Contact">
+            
+        <div class="row">
+             <div class="bodypadding">
+             </div>
+        </div><!--row-->
+            
+            <div class="contact">
+                <h1 style="text-align:center;">Contact</h1>
+                <p style="text-align:center;">817-487-7632 &nbsp; nsanderson1996@gmail.com</p>
+                <br>
+                <div class="row">
+                    <div class="three">
+                        &nbsp;
+                    </div><!--three-->
+                    <div class="two">
+                        <div class="contactcontainer">
+                                <a href="https://www.linkedin.com/in/seth--anderson/" target="blank"><img src="images/linkedin.png" alt="LinkedIn Link" title="LinkedIn Link"></a>
+                        </div>
+                        <p>LinkedIn</p>
+                    </div><!--two-->
+                    <div class="two">
+                        <div class="contactcontainer">
+                                <a href="https://www.facebook.com/NikolasSethAnderson" target="blank"><img src="images/facebook-icon.png" alt="Facebook Link" title="Facebook Link"></a>
+                        </div><!--contactcontainer-->
+                        <p>Facebook</p>
+                    </div><!--two-->
+
+                    <div class="two">
+                        <div class="contactcontainer">
+                                <a href="https://www.instagram.com/piccolo__jr" target="blank"><img src="images/instagram-icon.png" alt="Instagram Link" title="Instagram Link"></a>
+                        </div><!--contactcontainer-->
+                        <p>Instagram</p>
+                    </div><!--two-->
+                    <div class="three">
+                        &nbsp;
+                    </div><!--three-->
+                </div><!--row-->
+            </div>
+		</div><!--content-->
+            
+            <div class="row">
+                <div class="bodypadding">
+                </div>
+            </div><!--row-->
+            
+        <div class="row">
+                <div class="six">
+                    <div class="contentimagehome-container">
+                            <div class="contentimagehome">
+                                <div class="contentimagehometint"><!--notbeingused-->
+                                </div><!--contentimagehometint-->
+                            </div>
+                    </div>
+                </div><!--column 6 closes here-->
+                <div class="six">
+                    <h3 style="padding-left:20px;">About Me</h3>
+                    <p style="padding-left:20px;">As a soon-to-be University of North Texas graduate, I'm excited to finally put my years of study to good use. Technical communication is a broad profession and I look forward to carving out my own niche of expertise over time. Furthermore, my goal is to be able to blend my own creativity with the development processes of industry products in this high-tech world.<br><br>Something I find really interesting about tech comm is how often I see older methodologies blended or updated with current practices. Tech comm is a relatively new field of expertise, yet one can trace its roots as far back as we've had written documentation.</p>
+                </div><!--six-->   		
+            </div><!--row closes here-->
+        
+        
+    </div>    
+        
+<!--Footer-->        
+        
+        
+           <div class="row"></div>
+        <div class="row">
+             <div class="bodypadding">
+             </div>
+        </div><!--row-->
+		
+		<div class="row">
+			<footer>
+			</footer>
+		</div><!--row closes here-->
+	</body>
+</html>
